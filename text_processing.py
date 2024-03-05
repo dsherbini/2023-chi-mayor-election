@@ -20,7 +20,7 @@ PATH = '/Users/danya/Documents/GitHub/personal github/2023-chi-mayor-election/da
 nlp = spacy.load("en_core_web_sm")
 
 
-# Text Processing cocde focusing on cleaning up the text, making it lowercase,
+# Text Processing code focusing on cleaning up the text, making it lowercase,
 # removing stopwords, applying sentiment analysis, and subjectivity score
 def data_file_path(filename):
     return os.path.join(PATH, filename)
